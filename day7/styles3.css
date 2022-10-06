@@ -1,0 +1,109 @@
+body {
+    height:100vh;
+    background-color: #6BBCBE;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items:center; 
+    flex-direction: column; 
+
+
+  }
+.circle {
+  margin: 20px;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.square{
+  margin: 4px;
+  width: 15px;
+  height: 50px;
+  background-color: white;
+
+  animation-fill-mode: forwards;
+  animation-name: scale-up, rotate;
+  animation-delay: 0s,2s;
+  animation-duration:1s, 1s;
+  animation-timing-function:ease-in-out, ease-in-out;
+  animation-iteration-count:inherit;
+  animation-direction: alternate, alternate;
+
+}
+
+
+
+
+#bg{
+    animation-name: rotate;
+    animation-duration:500ms;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+
+
+
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#bg2{
+
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row; 
+}
+
+#sq1{
+
+
+}
+#sq2{
+
+}
+#sq3{
+
+}
+#sq4{
+
+}
+#sq5{
+
+}
+
+
+@keyframes rotate{
+  from{
+      transform: rotate(0);
+  }
+to{
+      transform: rotate(180deg);
+  }
+
+}
+
+@keyframes scale-up {
+  0% {
+    transform: scaleY(1);
+    transform-origin: 50% 50%;
+  }
+
+  100% {
+    transform: scaleY(2);
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes pause{
+  0%{
+    transform: rotate(0);
+  }
+  100%{transform: rotate(180deg);
+
+  }
+}
+
+
+  

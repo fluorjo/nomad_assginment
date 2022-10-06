@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 task</title>
+
+</head>
+<style> 
+    input { font: 1em/1em Arial, sans-serif ;}
+    
+    form { font:  bold 1em/1em Georgia, serif ;}
+
+    h1 { font:  bold 3em/1em Georgia, serif ;}
+</style>
+
+<body>
+    <h1>Create An Account</h1>
+   
+    <form>
+
+        
+        <div>
+        <label for="First-name">First name</label>
+        <input id="First-name" required placeholder ="First name" type="text">
+        </div>
+
+        <div>
+        <label for="Last-name">Last name</label>
+        <input id="Last-name" required placeholder="Last name" type="text">
+        </div>
+        
+        <div>
+        <label for="Email">Email</label>
+        <input id="Email" required placeholder="Email" type="email">
+        </div>
+
+        <div>
+        <label for="Username">Username</label>
+        <input id="Username" required placeholder="Username" type="text">
+        </div>
+        
+        <div>
+        <label for="Password">Password</label>
+        <input id="Password" required placeholder="Password" type="password" minlength="10">
+        </div>
+
+
+
+        <div>
+
+
+
+        <label for="Birth date">Birth date</label>
+        <input id="Birth date" required placeholder="2022-11-11" type="date"><!--영어-->
+        </div>
+        
+        <div>
+        <label for="happy">How happy are you?</label>
+        <input id="happy" type="range" min="0" max="100" list="tickmarks">
+        <!--눈금-->
+        <datalist id="tickmarks">
+            <option value="0">  </option>
+            <option value="10">  </option>
+            <option value="20">  </option>
+            <option value="30">  </option>
+            <option value="40">  </option>
+            <option value="50">  </option>
+            <option value="60">  </option>
+            <option value="70">  </option>
+            <option value="80">  </option>
+            <option value="90">  </option>
+            <option value="100">  </option>
+
+
+        </div>
+
+        <div>
+        <label for="fav.color">What is your fav.color?</label>
+        <input id="fav.color" required placeholder="What is your fav.color?" type="color">
+        </div>
+        
+        <input type="submit" value="Create Account">
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+
+
+.nav__day__book{
+    width: 105px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.nav__day__book__name{
+    position: absolute;
+    top: 65px;
+    left: 150px;
+    width: 100%;
+}
+
+.nav__day__book__author{
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    width: 100%;
+}
+
+.nav__day__star{
+    position: absolute;
+    top: 115px;
+    left: 150px;
+}
+
+.nav__day__category{
+    position: absolute;
+
+    top: 140px;
+    left: 150px;
+
+    display: flex;
+}
+
+.nav__day__category__list{
+    background-color: grey;
+    border-radius: 10px;
+
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font: 1em 'Oswald';
+}
+
+.nav__day__btn{
+    position: absolute;
+    top: 190px;
+    left: 150px;
+
+    display: flex;
+
+}
+button{
+    background-color: black;
+    color: yellow;
+    width: 120px;
+    height: 30px;
+    
+    border-radius: 20px;
+
+    position: absolute;
+
+    left: 80px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#nav__day__btn__bookmark{
+    background-color: black;
+    color: yellow;
+    border-radius: 50%;
+    position:relative;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    border: 0;
+}
+#nav__day__btn__bookmark:hover{
+    cursor: pointer;
+    color: violet;
+}
+#nav__day__btn__bookmark:active{
+    transform: rotateX(1);
+}
+
+.nav__day__category:hover{
+    cursor: pointer;
+}
+

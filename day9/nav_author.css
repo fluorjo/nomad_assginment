@@ -1,0 +1,36 @@
+
+.nav__author__menu{
+    position: absolute;
+    top: 470px;
+}
+
+.nav__author__text{
+    position: absolute;
+    top: 540px;
+}
+
+.nav__author__picture{
+    position: relative;
+    top: 40px;
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+
+.nav__author__name{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.nav__author__des{
+
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    width: 220px;
+    height: 140px;
+
+    overflow-y: scroll;
+}

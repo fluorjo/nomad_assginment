@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>조형석 day9 assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="upper-bar">
+        <i class="fa-sharp fa-solid fa-bars-staggered"></i>        <div>library</div>
+        <i class="fa-sharp fa-solid fa-basket-shopping"></i>   
+    </div>
+
+    <form  action="search.html">
+        <input class=search-bar type="text" name="search_book" placeholder="Search books...">
+
+        <input style="font-family: FontAwesome" id='Search_book_icon' type="submit" value="&#xf002" />
+
+    </form>
+
+
+
+
+    <nav class="nav">
+        <ul class="nav__menu">
+            <li class="nav__day">
+                <h1>Book of the day</h1>
+                <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791163034001&orderClick=LAG&Kc=">
+                    <img class="nav__day__book" src="http://image.kyobobook.co.kr/images/book/large/001/l9791163034001.jpg"/>
+                </a>
+                <div class="nav__day__book__name"><h2>IT 5분 잡학사전</h2></div>
+
+                <div class="nav__day__book__author"><h7>니꼴라스, 배지현</h7></div>
+
+                <form name="star_rate" id="star_rate" method="post" action="">
+                    <fieldset>
+                        <legend></legend>
+                        <input type="radio" name="rating" value="5" id="rate1"><label for="rate1">⭐</label>
+                        <input type="radio" name="rating" value="4" id="rate2"><label for="rate2">⭐</label>
+                        <input type="radio" name="rating" value="3" id="rate3"><label for="rate3">⭐</label>
+                        <input type="radio" name="rating" value="2" id="rate4"><label for="rate4">⭐</label>
+                        <input type="radio" name="rating" value="1" id="rate5"><label for="rate5">⭐</label>
+                    </fieldset>
+                
+
+                <ul class='nav__day__category'>
+                    <li class="nav__day__category__list">IT</li>
+                    <li class="nav__day__category__list">Education</li>
+                </ul>
+
+                <ul class="nav__day__btn">
+                        <input 
+                        id="nav__day__btn__bookmark"
+                        style="font-family: FontAwesome" type="button" value="&#xf02e" onClick=clickEvent(); />
+
+                    <li>
+                        <button type="button" onclick="">
+                            Book Now
+                        </button>
+                    </li>
+                </ul>
+            </li>
+<!--TOP---------------------------------->
+            <div class="nav__top__menu">
+                <h1>Top Adventures</h1>
+            </div>
+            <ul class="nav__top">        
+                <li class="nav__top__list">
+                    <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791163031635&orderClick=LOA&Kc=">
+                        <img class="nav__top__list__book" src="http://image.kyobobook.co.kr/images/book/large/635/l9791163031635.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                    </div>
+                </li>
+                <li class="nav__top__list">
+                    <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791163033530&orderClick=LOA&Kc=">
+                        <img class="nav__top__list__book" src="http://image.kyobobook.co.kr/images/book/large/530/l9791163033530.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                    </div>
+                </li>
+                <li class="nav__top__list">
+                    <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791163032748&orderClick=LOA&Kc=">
+                        <img class="nav__top__list__book" src="http://image.kyobobook.co.kr/images/book/large/748/l9791163032748.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                    </div>
+                </li>
+                <li class="nav__top__list">
+                    <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791163031635&orderClick=LOA&Kc=">
+                        <img class="nav__top__list__book" src="http://image.kyobobook.co.kr/images/book/large/635/l9791163031635.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                    </div>
+                </li>         
+            </ul>
+
+<!--author-->
+            <div class="nav__author__menu">
+                <h1>Popular authors</h1>
+            </div>
+
+            <div class="nav__author__text">
+                
+            <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791163034001&orderClick=LAG&Kc=">
+                <img class="nav__author__picture" src="https://www.filepicker.io/api/file/8zhcu9oTtiFw9jQSglsR"/>
+            </a>
+            <div class="nav__author__name"><h2>Nicolas</h2></div>
+
+            <div class="nav__author__des"><h7>9살 때부터 코딩을 시작한 전형적인 ‘천재 코더’ 니꼴라스. 대학교 따위는 내팽개치고 혼자서 코딩을 공부했습니다. 그 덕분에 다른 사람들이 대학교 다니는 나이에 코딩 강의를 할 수 있었습니다. 거액 연봉의 입사 제안도 자유가 중요하다며 뻥 차버린 자유로운 영혼의 소유자입니다. 노마드 코더를 설립해 ‘코딩을 널리 알려 회사에 얽매인 영혼들을 자유케 하자’라는 책임감을 갖고 있습니다.</h7></div>
+
+            </div>
+
+
+
+        </ul>
+    </nav>
+
+
+
+<script src="https://kit.fontawesome.com/29233b525a.js" crossorigin="anonymous"></script>
+<script>
+    function clickEvent(){
+        alert('북마크 완료');
+    }
+</script>
+
+</body>
+</html>

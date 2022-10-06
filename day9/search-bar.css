@@ -1,0 +1,43 @@
+.search-bar{
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 100;
+    
+    top:75px;
+    left: 2.5%;
+    width: 95%;
+    height: 50px;
+    
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+    padding-left: 15px;
+}
+
+
+input::placeholder{
+    color: var(--pale_grey);
+    position:relative;
+    left: 15px;
+
+}    
+
+#Search_book_icon{
+    background-color: black;
+    color: yellow;
+    position: absolute;
+    top: 87px;
+    right:3%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+    position: fixed;
+    z-index: 100;
+}
+
+#Search_book_icon:hover{
+    cursor: pointer;
+}
+
