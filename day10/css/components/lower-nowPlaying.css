@@ -1,0 +1,40 @@
+.lower-nowPlaying{
+    background-color:orange;
+    position: fixed;
+    bottom: 70px;
+    height: 80px;
+    width: 90%;
+    z-index: 100;
+
+    border-radius: var(--rad);
+
+    display: flex;
+
+    
+    flex-direction: row;
+
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-content:center; 
+    align-items:center;
+}
+
+.lower-nowPlaying{
+
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-content:center; 
+    align-items:center;    
+}
+
+
+.lower-nowPlaying__text{
+    background-color: indigo;
+    bottom: 70px;
+}
+
+.lower-nowPlaying__btn{
+    background-color: red;
+}

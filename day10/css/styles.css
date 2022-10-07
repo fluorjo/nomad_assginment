@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&family=Nanum+Gothic+Coding:wght@400;700&family=Open+Sans:wght@400;600&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+
+
+@import "components/nav-bar.css";
+@import "components/artist.css";
+@import "components/ShufflenHeart.css";
+@import "components/song-list.css";
+@import "components/lower-nowPlaying.css";
+/*-----------------------------------------*/
+@import "components/song.css";
+@import "components/input-range.css";
+@import "components/middle-nowPlaying.css";
+
+body{font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+body{
+    background-color: wheat;
+    display: flex;
+}
+
+body{
+    height: 1000vh;
+    margin: 20px;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.text1{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+  h1 {
+    font: 2em 'Nanum Gothic Coding';
+    font-weight:bold;
+    margin: 5px;
+  }
+
+  h3{
+    font-size: 20px;
+    color: slategray;
+    margin: 5px;
+
+  }

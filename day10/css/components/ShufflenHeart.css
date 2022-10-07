@@ -1,0 +1,27 @@
+.ShufflenHeart{
+    background-color:green;
+    position: absolute;
+    top: 300px;
+    height: 100px;
+    width: 90%;
+
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-content:center; 
+    align-items:center;
+
+}
+
+.ShufflenHeart div{
+    width: 100px;
+    height: 25px;
+    background-color: #fff;
+
+    
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-content:center; 
+    align-items:center;
+}

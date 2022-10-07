@@ -1,0 +1,11 @@
+.navigation_bar{
+    position: absolute;
+
+    top: 50px;
+    height: 90px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    ;
+
+}
